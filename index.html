@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <script src = "script.js" defer></script>
+    <title>Форма бронирования</title>
+</head>
+<body>
+    <div id="form">
+        <div class="formItem">
+            <div class="name">Башня:</div>
+            <div class = "dropList">
+                <div id = 0 class="arrowDown"></div>
+                <div id = "tower" class="placeHolder">
+            </div>
+            </div>
+        </div>
+        <div class="formItem">
+            <div class="name">Этаж:</div>
+            <div class = "dropList">
+                <div id = 1 class="arrowDown"></div>
+                <div id = "floor" class="placeHolder">
+            </div>
+            </div>
+        </div>
+        <div class="formItem">
+            <div class="name">Переговорная:</div>
+            <div class = "dropList">
+                <div id = 2  class="arrowDown"></div>
+                <div id = "conver" class="placeHolder">
+            </div>
+            </div>
+        </div>
+        <div class="formItem">
+            <div class="name">Дата:</div>
+            <input type="date">
+            <input type="time">
+        </div>
+        
+        <div class="formItem">
+            <div class="name">Комментарий:</div>
+                <textarea></textarea>
+        </div>
+
+        <div class="formItem" id="controls">
+            <button id ="send">Отправить</button>
+            <button id ="clear">Очистить</button>
+        </div>
+    </div>
+</body>
+</html>
